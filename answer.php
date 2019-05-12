@@ -14,7 +14,7 @@
 <body>
     <form action="answer.php" method="post">
         <header>
-
+            <h2>今野検 解答フォーム</h2>
         </header>
         <div class="main">
             <input type="text" class="answer">
