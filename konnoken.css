@@ -2,9 +2,11 @@
     background-color: #ffe3a7;
 }
 .answer{
-
-    text-align: center;
-    padding: 40px 80px;
+    border:2px black solid;
+    padding-bottom: 20px;
+    margin-left   : 10%;
+    width: 80%;
+    font-size: 20px;
 }
 
 .answer_btn{
@@ -17,4 +19,9 @@
     color         : #ffffff;     /* 文字色     */
     line-height   : 1em;         /* 1行の高さ  */
     transition    : .3s;         /* なめらか変化 */
+    margin-left   : 20%;
+}
+
+.example{
+    border:2px black solid;
 }
