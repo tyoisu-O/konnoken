@@ -1,16 +1,43 @@
-.header{
+input[type="submit"]{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+header{
     background-color: #ffe3a7;
 }
+
+
+header h2, header img{
+    display: inline-block;
+    margin: 0 0 0 auto;
+}
+
+header h2{
+    margin-top: -10px;
+}
+
+header img{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.main{
+    display: block;
+}
+
 .answer{
     border:2px black solid;
     padding-bottom: 20px;
-    margin-left   : 10%;
-    width: 80%;
-    font-size: 20px;
+    margin-left: 10%;
+    width: 250px;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .answer_btn{
-    display       : inline-block;
+    display       : block;
     font-size     : 18pt;        /* 文字サイズ */
     text-align    : center;      /* 文字位置   */
     cursor        : pointer;     /* カーソル   */
@@ -23,5 +50,10 @@
 }
 
 .example{
+    display: block;
     border:2px black solid;
+}
+
+.output{
+    font-size: 40px;
 }
