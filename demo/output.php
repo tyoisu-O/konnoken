@@ -35,7 +35,7 @@ try {
 </head>
 <body>
     <?php foreach($answers as $key => $value):  ?>
-        <h1 class="output"><?php echo $key; ?> : <?php echo $value; ?></h1>
+        <h1 class="output"><?php echo $key; ?> :　<?php echo $value; ?></h1>
     <?php endforeach; ?>
 </body>
 </html>

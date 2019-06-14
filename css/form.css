@@ -1,0 +1,52 @@
+input[type="submit"]{
+    -webkit-appearance: none;
+    border-radius: 0px;
+}
+
+*{
+    margin: 0;
+}
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+}
+
+header{
+    background-color: rgb(137, 221, 247);
+    padding: 5px 0;
+}
+
+.all-main{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.main{
+    background-color: rgb(208, 242, 253);
+    display: inline-block;
+}
+
+.login{
+    text-align: center;
+    margin: 20px;
+    padding: 100px;
+}
+
+.group_num{
+    display: inline-block;
+    width: 20px;
+}
+
+.group_name p{
+    display: inline-block;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(137, 221, 247);
+    padding: 15px 0; 
+    position: absolute;
+    bottom: 0;
+}
